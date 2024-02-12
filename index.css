@@ -1,13 +1,17 @@
-h1 {
-    color: rgb(0, 42, 255);
-}
- 
-.speransky {
-    height: 100px;
-    width: 30px !important;
-    display: none;
+@font-face {
+    font-family: "Comrtaa";
+    src: url("./fonts/Comforrta/Comfortaa-Medium.ttf") format("ttf");
+    font-style: normal;
+    font-display: swap;
 }
 
-.fix {
-    width: 70px;
+@font-face {
+    font-family: "EBGaramond";
+    src: url("./fonts/EBGaramond/EBGaramond-Medium.ttf") format("ttf");
+    font-style: normal;
+    font-display: swap;
+}
+
+.pink {
+    background-color: #49365F;
 }
